@@ -4,9 +4,18 @@ class Persona {
         this.age = age;
         this.gender = gender;
     }
-
     saludar() {
         return `Buenas ${this.name}, es un placer conocerte.`;
+    }
+    static esMayorDeEdad(age) {
+        if (age >= 18 ) {
+            return "Eres mayor de edad";
+        } else {
+            return "No eres mayor de edad"
+        }
+    }
+    get getEdad(){
+        return this.age
     }
 }
 
@@ -31,5 +40,6 @@ formulario.addEventListener("submit", (e) => {
 
     let Usuario = new Estudiante(name, age, gender, carrera);
     document.getElementById("saludo").textContent = Usuario.saludar();
+    document.getElementById("mayorEdad").textContent = Persona.esMayorDeEdad(Usuario.getEdad);
     document.getElementById("info-carrera").textContent = Usuario.estudiar();
 });
