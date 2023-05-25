@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POO js ejercicio 1</title>
     <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <form id="MyForm">
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+            <br>
+            <input type="number" id="edad" name="edad" required placeholder="Edad">
+            <br>
+            <input type="text" name="sexo" id="sexo"required placeholder="Genero">
+            <br>
+            <input type="text" id="carrera" name="carrera" required placeholder="Carrera">
+            <br>
+            <button type="submit">Crear</button>
+        </form>
+        <p id="saludo"></p>
+        <p id="info-carrera"></p>
+    </div>
 
 
 </body>
+
 </html>
