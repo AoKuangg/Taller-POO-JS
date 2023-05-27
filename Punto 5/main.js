@@ -11,7 +11,7 @@ class Empleado {
         return `El sueldo Anual es: ${this.sueldo}`;
     }
     static generarIdEmpleado() {
-        let cid= ++Empleado.id
+        let cid= Empleado.id++
         return `El id del empleado: ${cid}`;
     }
 }
