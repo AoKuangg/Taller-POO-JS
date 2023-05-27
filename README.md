@@ -114,3 +114,22 @@ Sigue las instrucciones y completa los ejercicios en cada una de las carpetas co
 
 11. Llama al método estático `generarIdEmpleado()` y muestra el resultado en el HTML.
 
+Por supuesto, aquí tienes una sección adicional para el uso de la página:
+
+### Uso de la página
+
+1. Al acceder a la página principal, encontrarás un menú de navegación con los 5 puntos del taller.
+
+2. Haz clic en uno de los puntos del menú para acceder a la página correspondiente al ejercicio seleccionado.
+
+3. En cada página de ejercicio, encontrarás un formulario o una interfaz donde puedes ingresar los datos necesarios para el problema planteado.
+
+4. Completa los campos del formulario con los valores deseados.
+
+5. Una vez que hayas llenado los campos del formulario, haz clic en el botón "Resolver" o "Calcular" para ejecutar el código correspondiente al ejercicio.
+
+6. El resultado del ejercicio se mostrará en la página, ya sea en forma de texto o en una salida específica.
+
+7. Si deseas volver a la página principal para seleccionar otro punto del taller, puedes hacer clic en el botón "Volver al Menú" o en un enlace similar que te lleve de vuelta a la página principal.
+
+8. Repite los pasos anteriores para explorar y resolver los diferentes puntos del taller.
