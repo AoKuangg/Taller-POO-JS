@@ -116,7 +116,7 @@ Sigue las instrucciones y completa los ejercicios en cada una de las carpetas co
 
 Por supuesto, aquí tienes una sección adicional para el uso de la página:
 
-### Uso de la página
+## Uso de la página
 
 1. Al acceder a la página principal, encontrarás un menú de navegación con los 5 puntos del taller.
 
